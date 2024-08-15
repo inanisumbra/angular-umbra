@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  AngularUmbra.web:
+    image: inanisumbra/AngularUmbra:latest
+    build:
+      context: .
+      dockerfile: src/AngularUmbra.Web/Dockerfile
